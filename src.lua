@@ -423,7 +423,7 @@ function Library:create(options)
 		Name = "k4 Project",
 		Size = UDim2.fromOffset(600, 400),
 		Theme = self.Themes[settings.Theme],
-		Link = "https://k4Eclpise/"
+		Link = "https://k4Hub/V1/"
 	}, options)
 
 	if getgenv and getgenv().MercuryUI then
