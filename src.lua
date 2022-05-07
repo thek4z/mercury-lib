@@ -1,14 +1,3 @@
---[[
-
-mercury edited by me
-
-original developers:
-v3rm AbstractPoo	discord Abstract#8007
-v3rm 0xDEITY		discord Deity#0228
- edit:
-V3rm i forgor my username discord i dont have
-]]
-
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
@@ -907,8 +896,9 @@ function Library:create(options)
 
 	rawset(mt, "creditsContainer", creditsTab.container)
 
-	creditsTab:credit{Name = "Abstract", Description = "UI Library Developer", Discord = "Abstract#8007", V3rmillion = "AbstractPoo"}
-	creditsTab:credit{Name = "Deity", Description = "UI Library Developer", Discord = "Deity#0228", V3rmillion = "0xDEITY"}
+	creditsTab:credit{Name = "the ka", Description = "Kadium Hub Owner", Discord = "the ka#6246"}
+	creditsTab:credit{Name = "pans", Description = "Helped Me With Sum Scripts", Discord = "Pans#8589"}
+	creditsTab:credit{Name = "riot", Description = "Made Sum Scripts Helped With New UI And Nore", Discord = "Riot *#3511"}
 
 	return mt
 end
